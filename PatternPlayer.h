@@ -3,6 +3,8 @@
 #include "LeakedObjectDetector.h"
 
 #include "PatternGenerator.h"
+#include "HarmonicSet.h"
+#include "Distortion.h"
 
 
 struct PatternPlayer 

@@ -2,6 +2,7 @@
 
 #include <memory>
 
+struct HarmonicSet;
 struct HarmonicSetWrapper
 {
     HarmonicSetWrapper(HarmonicSet* hs);
@@ -9,6 +10,7 @@ struct HarmonicSetWrapper
     HarmonicSet* hsPtr = nullptr;
 };
 
+struct Distortion;
 struct DistortionWrapper
 {
     DistortionWrapper(Distortion* d);
@@ -16,6 +18,7 @@ struct DistortionWrapper
     Distortion* dPtr = nullptr;
 };
 
+struct PatternGenerator;
 struct PatternGeneratorWrapper
 {
     PatternGeneratorWrapper(PatternGenerator* pg);
@@ -23,6 +26,7 @@ struct PatternGeneratorWrapper
     PatternGenerator* pgPtr = nullptr;
 };
 
+struct PatternPlayer;
 struct PatternPlayerWrapper
 {
     PatternPlayerWrapper(PatternPlayer* pp);
@@ -30,6 +34,7 @@ struct PatternPlayerWrapper
     PatternPlayer* ppPtr = nullptr;
 };
 
+struct NoiseMaker;
 struct NoiseMakerWrapper
 {
     NoiseMakerWrapper(NoiseMaker* nm);
